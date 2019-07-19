@@ -1,0 +1,19 @@
+#+TITLE: Streamline
+
+A minimalist's modeline.
+
+
+* Screenshot
+[[file:streamline.png]]
+* Keybindings
+- ~C-s-g~ :: Show original mode line for a few seconds
+
+* Installation
+#+begin_src emacs-lisp
+  (package-install 'streamline)
+  (streamline-mode)
+#+end_src
+
+* Customization
+- ~streamline-toggle-keybinding~ :: Keybinding for ~streamline-toggle~, or ~nil~ to disable keybinding.
+- If you use spacemacs, you'll want to set ~dotspacemacs-mode-line-theme~ to ~'vanilla~.
